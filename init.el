@@ -68,6 +68,8 @@
 	ac-cider
 	
 	drag-stuff
+	
+	;;paredit-everywhere
 
     ;; git integration
     magit))
@@ -180,7 +182,10 @@
 (global-set-key (kbd "C-x M-o") 'cider-repl-clear-buffer)
 
 (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
+(add-hook 'slime-repl-mode-hook 'enable-paredit-mode)
 
+(require 'paredit-everywhere)
+(add-hook 'prog-mode-hook 'paredit-everywhere-mode)
 
 
 
