@@ -2,12 +2,12 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Sun Sep 25 20:38:26 2016
+;; Created Sun Sep 25 21:30:07 2016
 ;; Desktop file format version 208
 ;; Emacs version 25.1.1
 
 ;; Global section:
-(setq desktop-saved-frameset [frameset 1 (22503 54098 685095 400000) (desktop . "208") "dovan@DESKTOP-AGS5HM8" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-15-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha 85 85) (menu-bar-lines . 0) (tool-bar-lines . 3) (height . 39) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (environment) (frameset--id . "5C7E-487A-1E9A-7139") (frameset--mini t . t) (modeline . t) (minibuffer . t) (unsplittable) (icon-name) (display . "w32") (explicit-name) (tool-bar-position . top) (visibility . t) (width . 150) (left + -8) (top + -8)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 12) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 180) (min-pixel-height-ignore . 51) (min-pixel-width-ignore . 108) (min-pixel-height-safe . 17) (min-pixel-width-safe . 36)) hc (pixel-width . 1366) (pixel-height . 652) (total-width . 152) (total-height . 38) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 682) (pixel-height . 652) (total-width . 76) (total-height . 38) (normal-height . 1.0) (normal-width . 0.5) (buffer "collections.clj" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 403) (start . 1))) (leaf (last . t) (pixel-width . 684) (pixel-height . 652) (total-width . 76) (total-height . 38) (normal-height . 1.0) (normal-width . 0.5) (buffer "*cider-repl localhost*" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 1976) (start . 1224)))))])
+(setq desktop-saved-frameset [frameset 1 (22503 57199 720131 400000) (desktop . "208") "dovan@DESKTOP-AGS5HM8" nil nil ((((font-backend uniscribe gdi) (font . "-outline-Courier New-normal-normal-normal-mono-15-*-*-*-c-*-iso8859-1") (border-width . 2) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (horizontal-scroll-bars) (foreground-color . "#f8f8f2") (background-color . "#282a36") (mouse-color . "black") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (alpha 85 85) (menu-bar-lines . 0) (tool-bar-lines . 3) (height . 39) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (scroll-bar-height . 0) (fullscreen . maximized) (display-type . color) (background-mode . dark) (cursor-color . "#ccccc7") (environment) (frameset--id . "DD1F-CCD4-9C4A-0C61") (frameset--mini t . t) (width . 150) (modeline . t) (minibuffer . t) (unsplittable) (left + -8) (top + -8) (icon-name) (visibility . t) (display . "w32") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 20) (min-height-ignore . 3) (min-width-ignore . 11) (min-height-safe . 1) (min-width-safe . 4) (min-pixel-height . 68) (min-pixel-width . 180) (min-pixel-height-ignore . 51) (min-pixel-width-ignore . 99) (min-pixel-height-safe . 17) (min-pixel-width-safe . 36)) hc (pixel-width . 1366) (pixel-height . 652) (total-width . 152) (total-height . 38) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 840) (pixel-height . 652) (total-width . 93) (total-height . 38) (normal-height . 1.0) (normal-width . 0.6143616158338738) (buffer "collections.clj" (selected) (hscroll . 0) (fringes 8 8 nil) (margins 2) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 399) (start . 1))) (leaf (last . t) (pixel-width . 526) (pixel-height . 652) (total-width . 59) (total-height . 38) (normal-height . 1.0) (normal-width . 0.3856383841661256) (buffer "*cider-repl programming-clojure*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 1) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 18) (start . 1)))))])
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
@@ -21,59 +21,11 @@
   "d:/Dropbox/ws/programming-clojure/src/programming_clojure/chap03/collections.clj"
   "collections.clj"
   'clojure-mode
-  '(projectile-mode linum-mode cider-mode auto-complete-mode)
-  403
-  '(403 nil)
+  '(projectile-mode linum-mode cider-mode auto-complete-mode drag-stuff-mode company-mode subword-mode paredit-mode)
+  399
+  '(399 nil)
   nil
   nil
   '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "chap03"
-  'dired-mode
-  '(projectile-mode linum-mode)
-  253
-  '(nil nil)
-  t
-  '("d:/Dropbox/ws/programming-clojure/src/programming_clojure/chap03/")
-  nil
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "programming_clojure"
-  'dired-mode
-  '(projectile-mode linum-mode)
-  353
-  '(nil nil)
-  t
-  '("d:/Dropbox/ws/programming-clojure/src/programming_clojure/")
-  nil
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "src"
-  'dired-mode
-  '(projectile-mode linum-mode)
-  229
-  '(nil nil)
-  t
-  '("d:/Dropbox/ws/programming-clojure/src/")
-  nil
-  '((mark-ring nil)))
-
-(desktop-create-buffer 208
-  nil
-  "programming-clojure"
-  'dired-mode
-  '(projectile-mode linum-mode)
-  565
-  '(nil nil)
-  t
-  '("d:/Dropbox/ws/programming-clojure/")
-  nil
-  '((mark-ring nil)))
+  '((mark-ring (399))))
 

@@ -177,6 +177,8 @@
 (global-set-key (kbd "S-C-<right>") 'enlarge-window-horizontally)
 (global-set-key (kbd "S-C-<down>") 'shrink-window)
 
+(global-set-key (kbd "C-x M-o") 'cider-repl-clear-buffer)
+
 (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
 
 
@@ -190,10 +192,16 @@
  '(coffee-tab-width 2)
  '(package-selected-packages
    (quote
-    (drag-stuff tagedit smex projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking ac-cider))))
+    (company drag-stuff tagedit smex projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking ac-cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+ ;; https://cider.readthedocs.io/en/latest/code_completion/
+(global-company-mode)
+;;(setq company-idle-delay nil) ; never start completions automatically
+;;(global-set-key (kbd "M-TAB") #'company-complete) ; use M-TAB, a.k.a. C-M-i, as manual trigger
+;;(global-set-key (kbd "TAB") #'company-indent-or-complete-common)
