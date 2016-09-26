@@ -166,7 +166,7 @@
   
 
  ;; drag stuff 
-(drag-stuff-global-mode 1)
+;;(drag-stuff-global-mode 1)
 (global-set-key (kbd "M-<up>")   #'drag-stuff-up)
 (global-set-key (kbd "M-<down>") #'drag-stuff-down)
 
