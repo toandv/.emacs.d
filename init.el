@@ -111,6 +111,11 @@
 ;; Add a directory to our load path so that when you `load` things
 ;; below, Emacs knows where to look for the corresponding file.
 (add-to-list 'load-path "~/.emacs.d/customizations")
+(add-to-list 'load-path "~/.emacs.d/customizations/cc-mode")
+
+;; c
+(load "cc-mode.el")
+
 
 ;; Sets up exec-path-from-shell so that Emacs will use the correct
 ;; environment variables
@@ -182,7 +187,6 @@
 (global-set-key (kbd "C-x M-o") 'cider-repl-clear-buffer)
 
 (add-hook 'emacs-lisp-mode-hook #'enable-paredit-mode)
-(add-hook 'slime-repl-mode-hook 'enable-paredit-mode)
 
 (require 'paredit-everywhere)
 (add-hook 'prog-mode-hook 'paredit-everywhere-mode)
