@@ -61,18 +61,12 @@
 
     ;; colorful parenthesis matching
    ;; rainbow-delimiters
-
-    ;; edit html tags like sexps
-    tagedit
 	
 	ac-cider
 	
 	drag-stuff
 	
-	;;paredit-everywhere
-
-    ;; git integration
-    magit))
+	))
 
 ;; On OS X, an Emacs instance started from the graphical user
 ;; interface will have a different environment than a shell in a
@@ -208,9 +202,3 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
- ;; https://cider.readthedocs.io/en/latest/code_completion/
-(global-company-mode)
-;;(setq company-idle-delay nil) ; never start completions automatically
-;;(global-set-key (kbd "M-TAB") #'company-complete) ; use M-TAB, a.k.a. C-M-i, as manual trigger
-;;(global-set-key (kbd "TAB") #'company-indent-or-complete-common)
