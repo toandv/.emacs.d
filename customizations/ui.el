@@ -26,7 +26,7 @@
 ;; for a more technical explanation.
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
 (add-to-list 'load-path "~/.emacs.d/themes")
-(load-theme 'dracula t)
+(load-theme 'material t)
 
 ;; increase font size for better readability
 (set-face-attribute 'default nil :height 110)
@@ -70,6 +70,3 @@
 
 (setq split-height-threshold nil)
 (setq split-width-threshold 0)
-
-(set-frame-parameter (selected-frame) 'alpha '(85 85))
-(add-to-list 'default-frame-alist '(alpha 85 85))

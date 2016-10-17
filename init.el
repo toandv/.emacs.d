@@ -136,10 +136,6 @@
 (load "setup-clojure.el")
 (load "setup-js.el")
 
-
-(add-to-list 'custom-theme-load-path "~/.emacs.d/themes")
-(load-theme 'dracula t)
-
 (desktop-save-mode 1)
 
 (require 'ac-cider)
@@ -193,12 +189,16 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(coffee-tab-width 2)
+ '(custom-safe-themes
+   (quote
+    ("98cc377af705c0f2133bb6d340bf0becd08944a588804ee655809da5d8140de6" default)))
  '(package-selected-packages
    (quote
-    (company drag-stuff tagedit smex projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking ac-cider))))
+    (material-theme company drag-stuff tagedit smex projectile paredit magit ido-ubiquitous clojure-mode-extra-font-locking ac-cider))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
