@@ -70,3 +70,5 @@
 
 (setq split-height-threshold nil)
 (setq split-width-threshold 0)
+(set-frame-parameter (selected-frame) 'alpha '(85 85))
+(add-to-list 'default-frame-alist '(alpha 85 85))
